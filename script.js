@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const secondQuestion = document.querySelectorAll(".question")[1];
 
-yesBtn.addEventListener("yes-btn", () => {
+yesBtn.addEventListener("click", () => {
   question.innerHTML = "I like you";
   secondQuestion.innerHTML = "How about you?"; 
   img.src =
